@@ -41,13 +41,11 @@ nav a:link {
 }
 
 nav a:active {
-    color: brown;
-    background-color: aliceblue;
+    color: aliceblue;
 }
 
 nav a:visited {
-    color: brown;
-    background-color: aliceblue;
+    color: aliceblue;
 }
 
 #tittle {
