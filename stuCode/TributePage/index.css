@@ -1,0 +1,104 @@
+body {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    height: 46px;
+    color: white;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: aliceblue;
+    height: 46px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a:hover {
+    background-color: aliceblue;
+    color: brown;
+}
+
+nav a:link {
+    color: white;
+}
+
+nav a:active {
+    background-color: aliceblue;
+}
+
+nav a:visited {
+    background-color: aliceblue;
+}
+
+#tittle {
+    font-size: 40px;
+    padding: 20px 0px 0px;
+}
+
+header {
+    flex-direction: column;
+    text-align: center;
+}
+
+#img-div {
+    margin: 40px auto 0px;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: white;
+}
+
+#image {
+    width: 100%;
+}
+
+#img-caption {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 23px;
+    padding: 20px 0px 0px;
+}
+
+#tribute-info {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+#gamedate {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+li {
+    margin: 20px 0;
+}
+
+footer {
+    height: 60px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
