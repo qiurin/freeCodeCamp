@@ -33,11 +33,11 @@ nav a {
 
 nav a:hover {
     background-color: aliceblue;
-    color: brown;
+    color: brown!important;
 }
 
 nav a:link {
-    color: white;
+    color: rgb(141, 126, 126);
 }
 
 nav a:active {
