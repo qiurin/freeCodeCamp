@@ -2,27 +2,73 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css" />
     <title>表单</title>
 </head>
 
 <body>
+    <h2 id="title">申请表</h2>
+
     <main>
-        <h2 id="title"></h2>
-        <p id="description"></p>
-        <form action="" id="survey-form">
-            <label for="name" id="name-label">名称：<input type="text" name="name" id="name" placeholder="输入你的名称"></label>
-            <label for="email" id="email-label">邮箱：<input type="email" name="" id="email" placeholder="输入你的电子邮件"></label>
-            <label for="number" id="number-label">安全码：<input type="number" name="" id="number" maxlength="10" minlength="6" 输入6-10位数字的安全码></label>
-            <label for="dropdown">选择毕业证书所属院校：<select name="" id="dropdown">
-                <option value="shqh">上海清华大学</option>
-            <option value="mgjq" selected>美国剑桥大学</option>
-            <option value="wcfd">吴川复旦大学</option>
-            <option value="szzx">深圳广西中心大学</option></select></label>
-            <label for="lever">选择证书等级：</label><input type="radio" name="lever" id="lever">
-        </form>
+        <div id="frommain">
+            <p id="description">请仔细填下以下内容</p>
+            <form action="" id="survey-form">
+                <div class="oneTabel">
+                    <label class="rightT" for="name" id="name-label">* 名称：</label>
+                    <input class="textinput" type="text" name="name" id="name" placeholder="输入你的名称" required />
+                </div>
+                <div class="oneTabel">
+                    <label class="rightT" for="email" id="email-label">* 邮箱：</label>
+                    <input class="textinput" type="email" name="" id="email" placeholder="输入你的电子邮件" required />
+                </div>
+                <div class="oneTabel">
+                    <label class="rightT" for="number" id="number-label">* 安全码：</label>
+
+                    <input class="textinput" type="number" name="" id="number" maxlength="10" minlength="6"
+                        placeholder="输入6-10位数字的安全码" required />
+                </div>
+                <div class="oneTabel">
+                    <label class="rightT" for="dropdown">选择毕业证书所属院校：</label>
+
+                    <select name="" id="dropdown">
+                        <option value="shqh">上海清华大学</option>
+
+                        <option value="mgjq" selected>美国剑桥大学</option>
+
+                        <option value="yghf">英国哈佛大学</option>
+
+                        <option value="szzx">吴川中心小学附属大学</option>
+                    </select>
+                </div>
+                <div class="oneTabel">
+                    <label class="rightT" for="lever" class="leftT">选择证书等级：</label>
+                    <div class="listPut">
+                        <label for="lever"><input type="radio" name="lever" id="lever1" />幼稚园</label>
+                        <label for="lever"><input type="radio" name="lever" id="lever2" />小学</label>
+                        <label for="lever"><input type="radio" name="lever" id="lever3" checked />中学</label>
+                        <label for="lever"><input type="radio" name="lever" id="lever4" />高中</label>
+                    </div>
+                </div>
+                <div class="oneTabel">
+                    <label class="rightT" for="gas">请选择技能：</label>
+                    <div class="listPut">
+                        <label for="gas"><input type="checkbox" name="gas" id="gas1" checked />绘画</label>
+                        <label for="gas"><input type="checkbox" name="gas" id="gas2" />园艺</label>
+                        <label for="gas"><input type="checkbox" name="gas" id="gas3" checked />声乐</label>
+                        <label for="gas"><input type="checkbox" name="gas" id="gas4" />舞蹈</label>
+                    </div>
+                </div>
+                <div class="oneTabel">
+                    <label class="rightT" for="textarea" class="leftT">备注：</label>
+                    <textarea name="inn" id="inn" cols="60" rows="6"></textarea>
+                </div>
+                <button type="submit">提交申请</button>
+
+            </form>
+        </div>
     </main>
 </body>
 
