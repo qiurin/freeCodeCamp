@@ -17,7 +17,7 @@ h2 {
 
 .oneTabel {
   display: grid;
-  grid-template-columns: auto 70%;
+  grid-template-columns: 0.7fr 1fr;
   column-gap: 10px;
   padding: 10px;
 }
@@ -36,11 +36,11 @@ h2 {
   border-radius: 6px;
 }
 .textinput {
-  max-width: 200px;
+  max-width: 260px;
   outline-style: none ;
   border: 1px solid #ccc; 
   border-radius: 3px;
-  padding: 8px 6px;
+  padding: 8px 8px;
 
 }
 
