@@ -1,0 +1,104 @@
+body {
+    text-align: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+    padding: 16px 26px;
+    z-index: 2;
+    max-height: 52px;
+}
+
+.nav-link {
+    padding: 16px;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: brown;
+}
+
+#header-img {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    height: 16px;
+    font-size: 33px;
+}
+
+a {
+    color: aliceblue;
+}
+
+i {
+    margin-right: 6px;
+}
+
+#formLabel {
+    height: 100vh;
+}
+
+#bg {
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(media/bgIMG.jpg);
+    opacity: 0.2;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+form {
+    padding-top: calc(100vh / 2 - 52px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    font-size: 16px;
+}
+
+input {
+    margin: 20px;
+    width: 100%;
+    max-width: 360px;
+    padding: 12px 16px;
+    border: 1px none rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+button {
+    color: white;
+    background-color: cadetblue;
+    outline-style: none;
+    border: 1px none rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 10px 26px;
+}
+
+button:hover {
+    color: cadetblue;
+    background-color: white;
+    border: 1px solid cadetblue;
+}
+
+@media (max-width:800px) {
+    #header-img {
+        display: none;
+    }
+    header {
+        justify-content:space-around;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
