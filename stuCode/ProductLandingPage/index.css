@@ -12,7 +12,7 @@ header {
     background-color: brown;
     padding: 16px 26px;
     z-index: 2;
-    max-height: 52px;
+    height: 52px;
 }
 
 .nav-link {
@@ -100,5 +100,8 @@ button:hover {
         width: 100%;
         display: flex;
         justify-content: space-around;
+    }
+    .nav-link{
+        padding: 0;
     }
 }
