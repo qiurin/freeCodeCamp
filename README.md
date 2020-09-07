@@ -1,18 +1,33 @@
-## FCC 学习日志
+FCC 日志
+==========================
 
-这是我的 FCC 学习日志
+FreeCodeCamp 的学习日志
+
+## 目录
+
+[TOC]
+
+
+## 响应式网页设计认证（300小时）
+
+### 基本HTML和HTML5
+
+- [x] 基本HTML和HTML5简介
+- [x] 向HTML元素问好
+- [x] 带有h2元素的标题
+- [x] 使用段落元素进行通知
+- [x] 使用占位符文本填充空白
+- [x] 取消注释HTML
+- [x] 注释掉HTML
+- [x] 删除HTML元素
+- [x] HTML5元素简介
+- [x] 将图像添加到您的网站
+- [x] 链接到带有锚元素的外部页面
+- [x] 链接到带有锚元素的页面的内部部分
+- [x] 在段落中嵌套锚元素
 
 
 
-#### 响应式网页设计认证（300小时）
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-### 响应式网页设计认证（300小时）
-
-#### 基本HTML和HTML5
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/qiurin/freeCodeCamp/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
